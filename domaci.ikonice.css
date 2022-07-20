@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(236, 181, 99);
+}
+
+.class {
+    width: 450px;
+    height: 690px;
+    background-color: rgba(242, 252, 112, 0.897);
+    border: 2px dashed;
+    border-radius: 20px;
+}
+
+.img1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 450px;
+    height: 220px;
+}
+
+.class h1 {
+    text-transform: none;
+    font-size: x-large;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.class h2 {
+    font-size: x-large;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.class p {
+    font-size: 18px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}

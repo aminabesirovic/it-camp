@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.parent {
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    background-color: cornflowerblue;
+    /* overflow: auto;*/
+    display: grid;
+    /* grid-template-columns: 200px 200px 120px; prva vrednost se odnosi na prvu kolonu, druga na drugu*/ 
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    grid-template-columns: repeat(3, 150px);
+
+    /*grid-template-rows: 200px 150px; prva vrednost se odnosi na prvi red, druga na drugi red */
+        /*grid-auto-rows: 150px ; 150px je visisna koju ce imati svaki red*/
+        grid-auto-rows: minmax(150px, auto);
+        /*funkcije koje definise defaultna vrednost za visinu reda(prvi argument unutar funkcije), auto predstavlja eventualno povecanje u slucaju veceg sadrzaja.*/
+        /*grid-row-gap:15px;*/
+        /*grid-column-gap:20px;*/
+        grid-gap:20px;
+    }
+
+.box1 {
+    /*width: 150px;*/
+    /*height: 150px;*/
+    background-color: #434397;
+}
+
+.box2 {
+    /*width: 150px;*/
+    /*height: 150px;*/
+    background-color: #549743;
+}
+
+.box3 {
+    /* width: 150px;*/
+    /*height: 150px;*/
+    background-color: #ada346;
+}
+
+.box4 {
+    /* width: 150px;*/
+    /*height: 150px;*/
+    background-color: #974343;
+}
+
+.box5 {
+    /*width: 150px;*/
+    /*height: 150px;*/
+    background-color: #41a3a3;
+}
+
+.box6 {
+    /*width: 150px;*/
+    /*height: 150px;*/
+    background-color: #9254af;
+}

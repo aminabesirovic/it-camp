@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+header {
+    margin: 0px auto;
+    width: 100vw;
+    height: 5rem;
+    background-color: blue;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+}
+
+header button {
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+.main h1 {
+    margin: 5rem 0 5rem 2rem;
+}
+
+main.parent {
+    margin: auto;
+    width: 90vw;
+    height: 13rem;
+    background-color: #97dcf3;
+    display: flex;
+    justify-content: start;
+}
+
+main .parent img {
+    width: 600px;
+    height: 500px;
+    flex-grow: 2;
+    margin-right: 2rem;
+}
+
+main .parent .child {
+    flex-grow: 1;
+}
+
+

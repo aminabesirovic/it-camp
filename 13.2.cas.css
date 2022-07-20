@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    background-color: antiquewhite;
+}
+
+
+.back {
+    margin: 20px auto;
+    width: 850px;
+    height: 750px;
+    color: white;
+    background-image: url(https://static.nationalgeographic.rs/Picture/15720/jpeg/tajne_neba_25_stvari_koje_sigurno_niste_znali_o_zvezdama_961563062);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-size: 200px 100px; prva vrednost se odnosi na sirinu, druga na visinu */
+    /*background-size: cover; za prekrivanje celog kontejnera */
+    
+}
+
+.back h1
+
+.glavni {
+    margin: 15px;
+    padding: 20px 15px;
+    width: 300px;
+    height: 300px;
+    border: 2px dashed rgb(49, 49, 114);
+    background-color: aqua;
+    display: inline-block;
+}
+
+.glavni:nth-of-type(2) {
+    margin: 15px;
+    padding: 20px 15px;
+    width: 300px;
+    height: 300px;
+    border: 2px dashed rgb(114, 49, 58);
+    background-color: rgb(145, 255, 0);
+}
+
+.glavni:nth-of-type(3) {
+    margin: 15px;
+    padding: 20px 15px;
+    width: 300px;
+    height: 300px;
+    border: 2px dashed rgb(49, 114, 58);
+    background-color: rgb(255, 81, 0);
+}
+
+p2:hover {
+    background-color: rgb(248, 245, 36);
+}
+
+.darkgreen {
+    color: rgb(100, 7, 0);
+    font-size: 15;
+}
+
+.blue {
+    color: blue;
+    font-size: 10;
+}
+
+.red {
+    color: rgb(255, 251, 0);
+    font-size: 25;
+}

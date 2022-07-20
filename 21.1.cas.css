@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parent {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color: #333383;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: #cf8b33;
+    /*naziv animacije top-to-bottom,  3s trajanje izvrsenja,  ease-in funkcija,   forwards:  ostaje na mestu izvrsenja nakon samog izvrsenja, infinite:  broj ponavljanja, alternate:  svako pomeranje predstavlja jedno izvrsenje animacije         */
+    animation: top-to-bottom 3s ease-in forwards infinite alternate;
+}
+
+.parent:hover .child {
+    animation-play-state: paused;
+
+}
+
+@keyframes top-to-bottom {
+    33% {
+        background-color: #578fc0;
+        transform: translate(350px, 80px);
+    }
+
+    66% {
+        background-color: #a54fa1;
+        transform: translate(350px, 160px);
+    }
+
+    100% {
+        background-color: #3fda2a;
+        transform: translateY(250px);
+        border-radius: 50%;
+    }
+}
+
+.glavni {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color: #333383;
+}
+
+.drugi {
+    width: 150px;
+    height: 150px;
+    background-color: #cf8b33;
+    animation: top-to-bottomm 2s ease-in forwards infinite alternate;
+ }
+
+ @keyframes top-to-bottomm {
+    33% {
+        background-color: #578fc0;
+        transform: translate(350px, 80px);
+    }
+
+    66% {
+        background-color: #a54fa1;
+        transform: translate(350px, 160px);
+    }
+
+    100% {
+        background-color: #3fda2a;
+        transform: translate(250px,250px);
+        border-radius: 50%;
+    }
+}

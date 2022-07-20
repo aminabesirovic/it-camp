@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(236, 181, 99);
+    font-family: 'Exo 2', sans-serif;
+    font-size: larger;
+}
+
+.class:nth-of-type(1) {
+    margin: 10px;
+    overflow: auto;
+    border-radius: 20px;
+    width: 450px;
+    height: 650px;
+    background-color: rgb(155, 151, 120);
+    border: 3px dashed rgb(68, 69, 165);
+}
+
+
+
+.class {
+    width: 450px;
+    height: 690px;
+    background-color: rgba(242, 252, 112, 0.897);
+    border: 2px dashed;
+    border-radius: 20px;
+}
+
+.img1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 450px;
+    height: 220px;
+}
+
+.class h1 {
+    text-transform: none;
+    font-size: x-large;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.class h2 {
+    font-size: x-large;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.img1:hover {
+    background-color: rgb(114, 75, 150);
+}
+
+.class h1:hover {
+    background-color: rgb(55, 146, 116);
+}
+
+.class h2:hover {
+    background-color: rgb(168, 168, 56);
+}
+
+#icon {
+    color: rgb(11, 13, 119);
+    background-color: rgb(185, 181, 115);
+    margin: 7px 9px 7px 9px;
+}
+
+.class p {
+    font-size: 18px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.class p:hover {
+    background-color: rgb(208, 255, 0);
+}
+
+.red {
+    color: red;
+    font-size: 22px;
+}

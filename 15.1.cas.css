@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.parent {
+    width: 100vw;
+    height: 900px;
+    background-color: azure;
+    float: right;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    float: right;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    float: right;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    float: right;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    float: left;
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    float: left;
+    clear: both;
+}
+
+.box6 {
+    width: 100px;
+    height: 100px;
+    background-color: darkolivegreen;
+    float: left;
+}
+
+.box7 {
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    float: left;
+}
+
+.prvi {
+    width: 300px;
+    height: 300px;
+    background-color: chartreuse;
+    float: left;
+}
+
+.drugi {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(134, 48, 168);
+    float: right;
+}
