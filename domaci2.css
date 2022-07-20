@@ -1,0 +1,43 @@
+.container {
+    display:inline-block;
+    background-color: blanchedalmond;
+    width:240px;
+    height:240px;
+    padding:90px;
+    margin:35px
+}
+
+
+h1 {
+margin: 0%;
+color:darksalmon
+}
+
+.text{
+    display:inline-block;
+    background-color: blanchedalmond;
+    width:240px;
+    height:240px;
+    padding:90px;
+    margin:35px
+}
+
+h1 {
+    margin: 0%;
+    color:darksalmon
+    }
+
+    .content {
+        display:inline-block;
+        background-color: blanchedalmond;
+        width:240px;
+        height:240px;
+        padding:90px;
+        margin:35px
+    }
+    
+    h1 {
+        margin: 0%;
+        color:darksalmon
+        }
+

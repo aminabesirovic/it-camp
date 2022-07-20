@@ -1,0 +1,55 @@
+h1{
+    background-color: brown;
+    font-size: xx-large;
+}
+
+h2{
+    background-color: hotpink;
+    color: aqua;
+    font-weight: bold;
+    font-size: larger;
+    font-style: oblique;
+}
+
+h3{
+    color: blueviolet;
+    font-size: medium;
+    font-style: italic;
+    background-color: bisque;
+}
+
+h4{
+    background-color: forestgreen;
+    color: greenyellow;
+    font-size: x-large;
+}
+
+h5{
+    font-weight: 200;
+    font-style: italic;
+    color: turquoise;
+}
+
+h6{
+    color: deepskyblue;
+    background-color: floralwhite;
+    font-size: medium;
+}
+
+p1{
+    background-color: blanchedalmond;
+    color: seagreen;
+    font-style: unset;
+}
+
+p2{
+    color: indigo;
+    font-size: larger;
+    font-style: normal;
+}
+
+p3{
+    background-color: cadetblue;
+    color: black;
+}
+
